@@ -1,2 +1,24 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;                /* Enables Flexbox on the holder */
+    flex-wrap: wrap;              /* Allows items to wrap to the next row */
+    justify-content: space-between; /* Ensures the first and last items touch the edges, with space between items */
+    gap: 16px;                    /* Adds spacing between rows */
+    padding: 0 16px;              /* Adds padding on the left and right for better alignment */
+}
+.item{
+	background-color:green;
+	height:80px;
+	width:50px;
+}
+.item-1{
+	background-color:red;
+	height:80px;
+	width:50px;
+}
+.item-2{
+	background-color:blue;
+	height:80px;
+	width:50px;
+}
